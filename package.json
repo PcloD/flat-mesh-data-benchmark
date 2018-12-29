@@ -1,0 +1,19 @@
+{
+  "name": "flattening",
+  "version": "1.0.0",
+  "description": "## Motivation",
+  "main": "index.js",
+  "dependencies": {
+    "angle-normals": "^1.0.0",
+    "array-pack-2d": "^1.0.0",
+    "benchmark": "^2.1.4",
+    "stanford-dragon": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
