@@ -1,4 +1,4 @@
-# mesh storage format benchmarks
+# flat typed arrays vs. array of arrays for mesh data
 
 ## Motivation
 
@@ -15,6 +15,8 @@ I've benchmarked a very simple translation of angle-normals to flat array storag
 3. Flat Float32Array storage with the same pre-allocated output destination for each run.
 
 ## Results
+
+The tests are run on a MacBook Pro (2018, OS X 10.14.2, 2.7GHz Intel Core i7 with 16GB 2133 MHz LPDDR3 RAM) running node v10.13.0.
 
 ```
 Coarseness level 4:
