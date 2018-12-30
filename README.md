@@ -4,7 +4,7 @@
 
 In order to help guide mesh storage format decisions, this repository performs a simple benchmark of the venerable [angle-normals](https://www.npmjs.com/package/angle-normals) module using array-of-arrays storage as well as using flat typed arrays.
 
-My hypothesis is that flat typed arrays not only facilitate interop with WebGL, but are actually significantly faster. When challenged though, I realized my evidence was anecdotal at best.
+My hypothesis is that flat typed arrays not only facilitate interop with WebGL, but are actually significantly faster. When challenged though, I realized my evidence was anecdotal and hand-wavy at best.
 
 ## Setup
 
