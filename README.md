@@ -54,6 +54,6 @@ Coarseness level 1:
 
 ## Conclusions
 
-For small meshes, the differences aren't significant. As the face/vertex count grows though, the differences can easily add up to 100% overhead, in addition to needing to then repack array-of-arrays into a typed array for usage in WebGL.
+First of all, keep in mind this is one real-world but nonetheless very isolated example. Learn from it but don't overgeneralize. For small meshes, the differences aren't significant. As the face/vertex count grows though, the differences can easily add up to 100% overhead, in addition to needing to then repack array-of-arrays into a typed array for usage in WebGL.
 
 Of course you must also keep in mind that adding or removing a vertex from a typed array—or performing similar topological operations—is much more expensive than with array-of-arrays. I'm not trying to say which format is better. My goal here is only to clarify the costs/benefits.
